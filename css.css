@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("herbal-medicines.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+img {
+  height: 100px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  padding-top: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+a:hover {
+  background-color: green;
+}
+
+.description {
+  height: 200px;
+  width: 100%;
+  margin-top: 100px;
+  text-align: center;
+  opacity: 0.6;
+  display: inline-block;
+}
+
+.description h1 {
+  color: green;
+  padding-top: 10px;
+}
+
+.description p {
+  line-height: 1.6;
+}
+
+#descriptionone {
+  background-color: honeydew;
+  padding-right: 40px;
+  padding-left: 40px;
+  margin-right: 80px;
+}
+
+#descriptiontwo {
+  background-color: honeydew;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 20px;
+}
+
+#button {
+  background: green;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+#extrasection {
+  background-color: aquamarine;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  opacity: 0.6;
+  color: green;
+}
